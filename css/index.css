@@ -2660,11 +2660,11 @@ header .head::after {
   width: 100%;
 }
 .index-Members .bottom-body-text ul::after {
-  height: 0;
-  clear: both;
-  visibility: hidden;
+  content: '';
   display: block;
-  content: "";
+  height: 0;
+  visibility: hidden;
+  clear: both;
 }
 .index-Members .bottom-body-text ul li {
   float: left;
@@ -2826,11 +2826,11 @@ footer .foot .top-text .two .img {
   margin-top: 24px;
 }
 footer .foot .top-text .two .img::after {
-  height: 0;
-  clear: both;
-  visibility: hidden;
+  content: '';
   display: block;
-  content: "";
+  height: 0;
+  visibility: hidden;
+  clear: both;
 }
 footer .foot .top-text .two .img a {
   width: 100px;
